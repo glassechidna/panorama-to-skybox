@@ -1,0 +1,30 @@
+<html>
+<head>
+    <title>Panorama to Skybox</title>
+</head>
+<body>
+    <h1>Panorama to Skybox Converter</h1>
+    <p>
+        Upload an equirectangular panorama and we'll return a zip file containing 6 images representing the sides of a skybox.
+    </p>
+    {% with messages = get_flashed_messages() %}
+        {% if messages %}
+            <ul class=flashes>
+                {% for message in messages %}
+                    <li>{{ message }}</li>
+                {% endfor %}
+            </ul>
+        {% endif %}
+    {% endwith %}
+    <form method="post" action="/convert" enctype="multipart/form-data">
+        <label>
+            <strong>Panorama:</strong>
+            <input name="file" type="file">
+        </label>
+        <input type="submit" value="Upload">
+    </form>
+    <p>
+        <em>Uploading and processing may take a while, please be patient.</em>
+    </p>
+</body>
+</html>

@@ -1,0 +1,10 @@
+{
+  "name": "panorama_to_skybox",
+  "description": "A simple web app for converting panoramas to skyboxes.",
+  "keywords": [
+    "skybox",
+    "panorama",
+    "heroku"
+  ],
+  "repository": "https://github.com/glassechidna/panorama_to_skybox"
+}
