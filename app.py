@@ -5,7 +5,7 @@ import zipfile
 from io import BytesIO
 
 from PIL import Image
-from flask import Flask, Response, abort, flash, redirect, request, render_template, send_file
+from flask import Flask, flash, redirect, request, render_template, send_file
 from flask_cors import CORS
 
 from panorama import populate_face, CubeFace
