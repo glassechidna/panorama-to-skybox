@@ -1,4 +1,4 @@
-# panorama_to_skybox
+# panorama-to-skybox
 
 A web app that converts 2:1 equirectangular panoramas to skybox (cube) images.
 
@@ -13,10 +13,10 @@ A web app that converts 2:1 equirectangular panoramas to skybox (cube) images.
 
 If you don't want to deploy manually, press the "Deploy to Heroku" button at the top of the page.
 
-1. Clone panorama_to_skybox:
+1. Clone panorama-to-skybox:
 
     ```bash
-    git clone https://github.com/glassechidna/panorama_to_skybox.git
+    git clone https://github.com/glassechidna/panorama-to-skybox.git
     ```
 
 2. Create a Heroku app:
@@ -25,7 +25,7 @@ If you don't want to deploy manually, press the "Deploy to Heroku" button at the
     heroku create
     ```
    
-3. Deploy panorama_to_skybox to your Heroku app:
+3. Deploy panorama-to-skybox to your Heroku app:
 
     ```bash
     git push heroku master

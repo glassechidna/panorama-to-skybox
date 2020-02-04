@@ -3,8 +3,13 @@
   "description": "A simple web app for converting panoramas to skyboxes.",
   "keywords": [
     "skybox",
-    "panorama",
-    "heroku"
+    "panorama"
+  ],
+  "buildpacks": [
+    {
+      "url": "https://github.com/glassechidna/python-poetry-buildpack.git"
+    },
+    "heroku/python"
   ],
   "repository": "https://github.com/glassechidna/panorama_to_skybox"
 }
